@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>vilãnia</title>
+</head>
+<body>
+    <main>
+        <main>
+            <div>
+                <h1>Vilânia</h1>
+            </div>
+            <div class="passo ativo" id="passo-0">
+                <img src="vila.jpeg" alt="vila"> 
+                <p>Em lugar muito longe daqui, chamado HARGATH,da decada de 1500, existia uma pequena vila, vila na qual se reúnia todos os povos da provincíncia daquela ÉPOCA, para festejar e dançar. Porém, em uma noite de festa um grande e antigo vilão daquele lugar apareceu,e com o seu poder de água devastou a vila, o povo daquele lugar ficou tão bravo que ativaram seus super poderes, e lutaram contra o super vilao...o combate foi tão feio, que o mar se enfureceu e cobriu a vila, nunca mais se ouviu falar dela, ou do grande vilao que a destruiu, seu dever é encontrar esse vilao e descobrir o que aconteceu.</p>
+                <button class="btn-proximo" data-proximo="1">encontrar o vilão</button>
+                <button class="btn-proximo" data-proximo="2">história do vilão</button>
+        </div>
+            <div class="passo" id="passo-1">
+                <img src="ilha.jpeg" alt="ilha"> 
+                    <p>Você começara sua jornada no mar mediterrânio, em uma longa viagm , dizem que Alark quando jovem amava mergulhar nesse rio, e era famoso por achar pedras preciosas
+                    SERÁ que conseguimos uma pista?</p>
+                <button class="btn-proximo" data-proximo="3">comprar itens de mergulho e explorar o rio</button>
+                <button class="btn-proximo" data-proximo="4">desistir e voltar para o inicio</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <img src="vilão.jpeg" alt="vilão"> 
+                <p>O nome desse grande vilão misterioso, é Alark, sua mãe era uma seria bondosa, enquanto seu pai, um herói convencido e orgulhoso, Alark nasceu com um dom incrivel, controlava o mar, falava com os animais e voava tão rápido quanto o próprio flash, quando jovem, descobriu que sua mãe estava preste a morrer, e no mar não havia ninguém capaz de ajudar, cheio de coragem Alark levou a sua mãe até a vila de seu pai, e suplicou por ajuda, porém o homem não deu atenção ao filho, ou a sua ex mulher que estava morrendo na sua frente, humilhado Alark voltou ao mar e viu sua mãe morrer em seus braços, com sede de vingança, jurou destruir todo aquele lugar que pertencia ao seu pai, e durante mil anos houve combate, ate que seu pai finalmente, morreu, e um sucessor assumiu o comando da vila
+                    Alark porem queria tudo pra ele, por isso foi lutar contra aquele povo na época</p>                   
+                <button class="btn-proximo" data-proximo="5">investigar museus antigos</button>
+                <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <p>no fundo daquele mar, você começa a desanimar, pois ja esta ali o dia todo e não consegue achar nada, até com brilho lhe chama atenção, o que será que é....</p>
+                <button class="btn-proximo" data-proximo="7">pegar o objeto e voltar para o navio</button>
+            </div>
+        
+            <div class="passo" id="passo-4">
+                <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+                <p>você decide que não vale a pena mexer no passado, o que passou passou, não tem importância...</p>
+                <button class="btn-proximo" data-proximo="1">Voltar ao inicio!</button>        
+            </div>
+        
+            <div class="passo" id="passo-5">
+                <p>Você encontra um mapa misterioso, que leva a um rubi numa vila perdida</p>
+                <p><button class="btn-proximo" data-proximo="11">seguir o mapa do rubi e explorar a vila perdida</button>.</p>
+                <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            </div>
+        
+            <div class="passo" id="passo-6">
+                <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+                <button class="btn-proximo" data-proximo="8">Voltar e ir pelo mar mediterrânio</button>
+            </div>
+        
+            <div class="passo" id="passo-7">
+                <p>no navio, vocÊ observa o objeto brilhante, parece uma pedra precios... É UM RUBI?</p>
+                <button class="btn-proximo" data-proximo="9">SEGUIR PELO MAR</button>
+            </div>
+        
+            <div class="passo" id="passo-8">
+                <p>quando voce ja esta bem afastado da cidade, voce decidi mergulhar e explorar, voce percebe algo de frente brilhando no fundo do mar e o pega, ja não mais nada de interessante, entao de volta para o navio!</p>
+                <button class="btn-proximo" data-proximo="7">voltar para o navio</button>
+            </div>
+        
+            <div class="passo" id="passo-9">
+                <p>O  RUBI, não era apenas uma pedra preciosa, ao pegar a lupa e observa-la, voce percebe que há um mapa gravado nele,e levaria você a uma pequena ilha, e ia direto para uma cachoeira escondida com inscrições antigas que revelam 
+                    a vila perdida no mar... mas de onde saiu essa ilha???.</p>
+                <button class="btn-proximo" data-proximo="11">seguir o mapa do rubi e explorar a vila perdida</button>
+            </div>
+        
+            <div class="passo" id="passo-11">
+                <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+                <p>Dentro da vila perdida, você descobre tesouros inimagináveis e da de cara com uma estatua, com um nome gravado...ALARK, derrepente se abre uma porta na estatua com varios pergaminhos que conta a historia.
+                    na realidade o Pai de Alark havia adoecido e morrido após Alark enterrar sua mãe e quem o tinha matado fora o seu próprio filho, meio-irmao de Alark que foi condenado ao exilo, para proteger a vila, Alark a escondeu junto com seus moradores
+                    e suas riquezas, no final, o vilao era o mocinho, por sua bravura em descobrir a verdade você RECEBERA A RECOMPENSA de levar o rubi para a casa</p>
+                
+                
+            
+            <div class="passo" id="passo-12">
+                <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições que
+                    levam à cidade perdida.</p>
+                    <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
